@@ -14260,3 +14260,34 @@ body:not(.device-touch) .tagcloud a {
 	  	margin-bottom: 0;
 	  }
 
+	
+	.sticky-header #logo-img{
+		position: relative;
+		
+		animation: logo-right;
+		animation-duration: 4s;
+		animation-fill-mode: forwards;
+		
+	}
+	  
+@keyframes logo-right{
+	0% {
+	  transform:translateX(0);
+	}
+	100% {
+	  transform: translateX(650px);
+	}
+  }
+  
+
+  #title-text{
+	  position: absolute;
+	  top: 10px;
+	  color: black;
+
+
+  }
+
+  
+
+  

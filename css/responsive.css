@@ -1818,3 +1818,22 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991.98px
 		margin-top:20%;
 	}
 }
+
+.logo-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	#primary-menu ul > li > a,
+	#primary-menu.style-2 > div > ul > li > a {
+		color: black !important;
+	}
+	#logo-img {
+		display: none !important;
+		margin-right: 60px;
+		margin-left: 600px;
+	}
+	.logo-mobile {
+		display: block;
+	}
+}

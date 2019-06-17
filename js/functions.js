@@ -1337,8 +1337,14 @@ var SEMICOLON = SEMICOLON || {};
             SEMICOLON.header.stickyMenuClass();
           }
         }
+        const urlImg = $('#logo-img').data('dark-logo');
+        $('#logo-img').attr('src', urlImg);
+        $("#title-text").show(3000);
       } else {
         SEMICOLON.header.removeStickyness();
+        const urlImg = $('#logo-img').data('white-logo');
+        $('#logo-img').attr('src', urlImg);
+        $("#title-text").hide();
       }
     },
 

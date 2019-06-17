@@ -1823,15 +1823,26 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991.98px
 	display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	#primary-menu ul > li > a,
 	#primary-menu.style-2 > div > ul > li > a {
 		color: black !important;
 	}
 	#logo-img {
+		position: absolute;
 		display: none !important;
 		margin-right: 60px;
 		margin-left: 600px;
+	}
+	#title-text{
+		position: relative;
+		
+		color: black;
+		margin-right: 40px;
+		max-width:100%;
+		height:auto;
+  
+  
 	}
 	.logo-mobile {
 		display: block;

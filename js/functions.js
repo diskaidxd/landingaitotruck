@@ -1339,7 +1339,7 @@ var SEMICOLON = SEMICOLON || {};
         }
         const urlImg = $('#logo-img').data('dark-logo');
         $('#logo-img').attr('src', urlImg);
-        $("#title-text").show(3000);
+        $("#title-text").show(2000);
       } else {
         SEMICOLON.header.removeStickyness();
         const urlImg = $('#logo-img').data('white-logo');
